@@ -69,7 +69,7 @@ header .navbar {
 }
 header .navbar .logo {
   padding: 5px;
-  width: 20%;
+  width: 15%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -232,7 +232,7 @@ header .navbar .contactus a:hover {
 }
 .section1 .title .btn {
   margin: 0 auto;
-  width: 150px;
+  width: 200px;
   height: 40px;
   background-color: var(--btn-color);
   display: flex;
@@ -323,7 +323,7 @@ header .navbar .contactus a:hover {
 }
 /* end 2eme section*/
 .heading-title {
-  width: 30%;
+  width: 50%;
   margin: 80px auto;
 }
 .heading-title h1 {
@@ -404,7 +404,7 @@ header .navbar .contactus a:hover {
   color: var(--blue-color);
 }
 .section3 .container .courses-card .btn-courses {
-  width: 70%;
+  width: 80%;
   height: 60px;
   margin: 45px auto;
   background-color: var(--orange-color);
@@ -417,7 +417,7 @@ header .navbar .contactus a:hover {
 }
 .section3 .container .courses-card .btn-courses a {
   color: var(--main-color);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 /* end 3eme section*/
@@ -590,7 +590,7 @@ header .navbar .contactus a:hover {
   align-items: center;
 }
 .courses-btn {
-  width: 20%;
+  width: 40%;
   height: 60px;
   margin: 30px auto;
   box-shadow: 0px 5px 15px black;
