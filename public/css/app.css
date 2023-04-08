@@ -90,7 +90,7 @@ header .navbar nav ul {
 }
 .mainlist .menu-list {
   position: absolute;
-  width: 200px;
+  width: 220px;
   height: 100px;
   background-color: var(--main-color);
   top: 100%;
@@ -100,11 +100,11 @@ header .navbar nav ul {
   transition: all 0.5s ease;
 }
 .mainlist .menu-list .list-item {
-  width: 100%;
+  width: auto;
   height: fit-content;
   font-size: 12px;
   font-weight: 400;
-  padding-top: 25px;
+  padding: 15px;
   cursor: pointer;
 }
 .mainlist:hover .menu-list {
@@ -114,6 +114,7 @@ header .navbar nav ul {
   font-weight: 400;
 }
 .dg-main {
+  width:250px;
   position: relative;
 }
 .dg-main .dg-menu {
@@ -124,13 +125,19 @@ header .navbar nav ul {
   width: 250px;
   height: fit-content;
   display: none;
+  padding-top: 15px;
 }
 .dg-main:hover .dg-menu {
   display: block;
 }
 .dg-main .dg-menu .dg-list {
-  padding: 25px;
   width: 100%;
+ 
+}
+.dg-main .dg-menu .dg-list a {
+  width: 100%;
+  text-align: left;
+  padding-bottom: 25px ;
 }
 /* end menulist*/
 header .navbar nav ul li {
