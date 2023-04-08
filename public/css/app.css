@@ -76,7 +76,7 @@ header .navbar .logo {
 }
 header .navbar nav {
   height: 70px;
-  flex: 1;
+  flex-basis: 100%;
 }
 header .navbar nav ul {
   height: 100%;
